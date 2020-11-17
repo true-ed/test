@@ -1,0 +1,41 @@
+.user-editor{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(255,255,255,.9);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__item{
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+  }
+
+  &__input{
+    width: 300px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    border: none; 
+    margin-top: 5px;
+  }
+
+  &__button{
+    margin-top: 10px;
+  }
+
+  &__close{
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+}

@@ -29,8 +29,8 @@ const config = {
       {
         test: /\.scss$/,
         use: [
-          'style-loader',
           'vue-style-loader',
+          'style-loader',
           'css-loader',
           'sass-loader'
         ]
